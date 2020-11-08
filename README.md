@@ -1,6 +1,6 @@
 # Spotify Wrapper
 
-[![Build Status](https://travis-ci.org/willianjusten/spotify-wrapper.svg?branch=master)](https://travis-ci.org/willianjusten/spotify-wrapper) [![Coverage Status](https://coveralls.io/repos/github/willianjusten/spotify-wrapper/badge.svg?branch=master)](https://coveralls.io/github/willianjusten/spotify-wrapper?branch=master)
+[![Build Status](https://travis-ci.org/cassianomon/spotify-api-tdd.svg?branch=master)](https://travis-ci.org/cassianomon/spotify-api-tdd) [![Coverage Status](https://coveralls.io/repos/github/cassianomon/spotify-api-tdd/badge.svg?branch=master)](https://coveralls.io/github/cassianomon/spotify-api-tdd?branch=master)
 
 A wrapper to work with the [Spotify Web API](https://developer.spotify.com/web-api/).
 
@@ -214,7 +214,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 | :---------------------------------------------------------------------------: |
 |              [Willian Justen](https://github.com/willianjusten/)              |
 
-See also the list of [contributors](https://github.com/willianjusten/spotify-wrapper/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/cassianomon/spotify-api-tdd/contributors) who participated in this project.
 
 ## License
 
