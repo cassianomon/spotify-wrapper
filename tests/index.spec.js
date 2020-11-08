@@ -16,7 +16,7 @@ describe('SpotifyWrapper Library', function () {
 
   it('should receive apiURL as an option', () => {
     let spotify = new SpotifyWrapper({
-      apiURL: 'blabla'
+      apiURL: 'blabla',
     });
 
     expect(spotify.apiURL).to.be.equal('blabla');
@@ -29,7 +29,7 @@ describe('SpotifyWrapper Library', function () {
 
   it('should receive token as an option', () => {
     let spotify = new SpotifyWrapper({
-      token: 'foo'
+      token: 'foo',
     });
 
     expect(spotify.token).to.be.equal('foo');
@@ -38,12 +38,12 @@ describe('SpotifyWrapper Library', function () {
   describe('request method', () => {
     let stubedFetch;
 
-    beforeEach( () => {
+    beforeEach(() => {
       stubedFetch = sinon.stub(global, 'fetch');
       stubedFetch.resolves({ json: () => {} });
     });
 
-    afterEach( () => {
+    afterEach(() => {
       stubedFetch.restore();
     });
 
@@ -55,7 +55,7 @@ describe('SpotifyWrapper Library', function () {
 
     it('should call fetch when request', () => {
       let spotify = new SpotifyWrapper({
-        token: 'foo'
+        token: 'foo',
       });
 
       spotify.request('url');
@@ -64,7 +64,7 @@ describe('SpotifyWrapper Library', function () {
 
     it('should call fetch with right url passed', () => {
       let spotify = new SpotifyWrapper({
-        token: 'foo'
+        token: 'foo',
       });
 
       spotify.request('url');
@@ -73,7 +73,7 @@ describe('SpotifyWrapper Library', function () {
 
     it('should call fetch with right headers passed', () => {
       let spotify = new SpotifyWrapper({
-        token: 'foo'
+        token: 'foo',
       });
 
       const headers = {

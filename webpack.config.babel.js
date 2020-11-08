@@ -1,6 +1,6 @@
-import {join} from 'path'
+import { join } from 'path';
 
-const include = join(__dirname, 'src')
+const include = join(__dirname, 'src');
 
 export default {
   entry: './index',
@@ -11,8 +11,6 @@ export default {
   },
   devtool: 'source-map',
   module: {
-    loaders: [
-      {test: /\.js$/, loader: 'babel-loader', include},
-    ]
-  }
-}
+    loaders: [{ test: /\.js$/, loader: 'babel-loader', include }],
+  },
+};
