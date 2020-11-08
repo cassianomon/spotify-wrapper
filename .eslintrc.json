@@ -12,7 +12,8 @@
     "it": true
   },
   "rules": {
-    "mocha/no-mocha-arrows": "off"
+    "mocha/no-mocha-arrows": "off",
+    "arrow-parens": "off"
   },
   "validate": ["javascript", "javascriptreact", "html", "typescriptreact"]
 }
