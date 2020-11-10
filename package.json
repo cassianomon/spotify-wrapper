@@ -1,5 +1,5 @@
 {
-  "name": "spotify-api-tdd",
+  "name": "spotify-wrapper",
   "version": "1.0.0",
   "description": "A wrapper to work with the Spotify API with the purposes of learning Test Driven Development",
   "main": "lib/index.js",
@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cassianomon/spotify-api-tdd.git"
+    "url": "git+https://github.com/cassianomon/spotify-wrapper.git"
   },
   "keywords": [
     "js",
@@ -43,9 +43,9 @@
   "author": "Cassiano Montanari <cassianomontanari@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cassianomon/spotify-api-tdd/issues"
+    "url": "https://github.com/cassianomon/spotify-wrapper/issues"
   },
-  "homepage": "https://github.com/cassianomon/spotify-api-tdd#readme",
+  "homepage": "https://github.com/cassianomon/spotify-wrapper#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-loader": "^7.0.0",
